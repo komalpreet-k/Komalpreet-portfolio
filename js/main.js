@@ -91,7 +91,7 @@ $(document).ready(function () {
 				if (project.has_pages) {
 					let demoLink = document.createElement("a");
 					demoLink.classList.add("demo-link");
-					demoLink.setAttribute("href", "./" + project.name);
+					demoLink.setAttribute("href", "https://komalpreet-k.github.io/" + project.name);
 					demoLink.setAttribute("target", "_blank");
 					demoLink.textContent = "Demo";
 					buttons.append(demoLink);
